@@ -18,6 +18,8 @@ public class ConversionTipo {
         System.out.print("Ingresa el divisor (entero): ");
         int divisor = scanner.nextInt();
         int resultado = dividendo / divisor;
-        System.out.println("El resultado de la división entera es: " + resultado);
+        System.out.println("El resultado de la division entera es: " + resultado);
+        
+        //Al usar double la division es mas exacta (ejemplo 7 y 2 da 3.5)
     }
 }
